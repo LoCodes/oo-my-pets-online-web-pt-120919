@@ -12,7 +12,7 @@ class Cat
     @@all << self
   end
 
-  def Cat.all
+  def self.all
     @all
   end
 
