@@ -53,9 +53,9 @@ class Owner
 
   #buy_cat   can buy a cat that is an instance of the Cat class
 #                knows about its dogs
-  def buy_cat(cat)
-    cat.owner == self
+  def buy_cat(name)
+    Cat.new(name, self)
   end
-    
+
 
 end
