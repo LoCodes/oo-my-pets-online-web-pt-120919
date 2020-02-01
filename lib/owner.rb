@@ -80,5 +80,16 @@ class Owner
     end
   end
 
+#  #sell_pets   can sell all its pets, which makes them nervous
+#               can sell all its pets, which leaves them without an owner
+
+  def sell_pets
+    pets = self.dogs + self.cats
+
+    pets.each do |pet|
+      pet.mood = "nervous" if pet.owner = nil
+    end
+  end
+
 
 end
