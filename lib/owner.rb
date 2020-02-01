@@ -1,8 +1,8 @@
 class Owner
   # code goes here
-  attr_accessor :name 
+  attr_accessor :name
 
-  def name(name)
+  def NAME(name)
     @name = name
   end
 
