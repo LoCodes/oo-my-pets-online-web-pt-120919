@@ -62,8 +62,7 @@ class Owner
 #            knows about its dogs
 
   def buy_dog(name)
-    name = Dog.new(name, self)
-    buy_dog(name, self)
+    Dog.new(name, self)
   end
 
 
