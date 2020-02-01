@@ -28,11 +28,10 @@ class Owner
     Owner.all.count
   end
 
+
+# .reset_all can reset the owners that have been created
   def self.reset_all
     Owner.all.clear
   end
-
-
-
 
 end
