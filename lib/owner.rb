@@ -29,7 +29,7 @@ class Owner
   end
 
   def self.reset_all
-    Owner.all.reset_all 
+    Owner.all.clear
   end
 
 
