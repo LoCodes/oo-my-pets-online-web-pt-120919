@@ -17,18 +17,18 @@ class Owner
   def say_species
     "I am a #{self.species}."
   end
-  
+
 # .all returns all instances of Owner that have been created
   def self.all
     @@all
   end
-  
+
  # .count returns the number of owners that have been created
-  def self.count 
+  def self.count
     @all 
   end
 
 
-  
+
 
 end
