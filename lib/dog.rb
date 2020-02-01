@@ -3,7 +3,7 @@ class Dog
   attr_accessor :mood, :owner
   attr_reader :name
 
-  @all = []
+  @@all = []
 
 
   def initialize(name, owner)
