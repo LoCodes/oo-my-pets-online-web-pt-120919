@@ -46,8 +46,8 @@ class Owner
 
   #dogs returns a collection of all the dogs that belong to the owner
   def dogs
-    Dog.all.select do |dog| 
-      dog.owner == self 
+    Dog.all.select do |dog|
+      dog.owner == self
   end
 
 
