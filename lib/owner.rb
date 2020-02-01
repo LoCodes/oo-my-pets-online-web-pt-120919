@@ -25,7 +25,7 @@ class Owner
 
  # .count returns the number of owners that have been created
   def self.count
-    @all 
+    Owner.all.count
   end
 
 
