@@ -1,11 +1,11 @@
 class Cat
   # code goes here
   attr_reader :name
-  attr_accessor :owner, :mood 
+  attr_accessor :owner, :mood
 
   def initialize(name)
     @name = name
-    @owner = owner 
+    @owner = owner
     @mood = "playful"
   end
 
