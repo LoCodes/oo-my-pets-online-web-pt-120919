@@ -92,5 +92,13 @@ class Owner
     end
   end
 
+#  #list_pets   can list off its pets
+
+  def list_pets
+    "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
+  end
+
+
+
 
 end
