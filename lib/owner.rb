@@ -2,8 +2,8 @@ class Owner
   # code goes here
 
   #species initializes with species set to human can't change its species
-  attr_reader :name, :species    
-                            
+  attr_reader :name, :species
+
   @@all = []
 
   def initialize(name)
