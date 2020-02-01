@@ -69,7 +69,14 @@ class Owner
 
 
   def walk_dogs
-    self.dogs.each {|dog| dog.mood = "happy" }
+    self.dogs.each {|dog| dog.mood = "happy" }    
+  end
+
+#  #feed_cats feeds cats which makes the cat's moods happy 
+
+  def feed_cats 
+    Cat.all.each do |cat|
+      cat.mood == "happy"
   end
 
 
