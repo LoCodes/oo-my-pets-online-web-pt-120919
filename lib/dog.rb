@@ -6,7 +6,7 @@ class Dog
 #    can change its owner
 #    can't change its name
 #    initializes with a nervous mood
-#    can change its mood  
+#    can change its mood
 
   attr_accessor :mood, :owner
   attr_reader :name
@@ -25,7 +25,7 @@ class Dog
 #    knows all the dogs
 
   def self.all
-    @@all 
+    @@all
   end 
 
 
