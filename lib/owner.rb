@@ -36,14 +36,19 @@ class Owner
 
 #  Associations
 #    Owner instance methods
-      #cats returnsa a collection of all the cats that belong to the owner
-      #dogs returns a collection of all the dogs that belong to the owner
       #buy_cat   can buy a cat that is an instance of the Cat class
 #                knows about its dogs
 
-
+#cats returnsa a collection of all the cats that belong to the owner
   def cats
     Cat.all.select{|cat| cat.owner == self}
   end
+
+  #dogs returns a collection of all the dogs that belong to the owner
+  def dogs
+    Dog.all.select do |dog| 
+      dog.owner == self 
+  end
+
 
 end
