@@ -10,8 +10,8 @@ class Cat
 #     initializes with a nervous mood
 #     can change its mood
 
-  attr_reader :name             
-  attr_accessor :owner, :mood  
+  attr_reader :name
+  attr_accessor :owner, :mood
 
   @@all = []
 
@@ -23,9 +23,9 @@ class Cat
   end
 
 
-#Class Methods 
-#  knows all cats 
-  def self.all      
+#Class Methods
+#  knows all cats
+  def self.all
     @@all
   end
 end
